@@ -4,3 +4,13 @@ Challenge 1: Student Grade Generator (Toy Problem)
 Write that prompts the user to input student marks. The input should be between 0 and 100. Then output the correct grade: 
 
 A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
+
+# Solution 
+I used if else conditional statement to solve this question.
+  # steps
+ 1. I defined my var using let(and that because i intend to resign it based of the score of each student to determin their individual grade).
+ 2. According to the challenge the studentScore(this is the variable i used) already has define score range. so i i did was to create about 5 different if else statment based on those predefined grade.
+ 3. console.log my condtions whilst passing new studentScore to ensure i am getting the required output
+
+
+ 
