@@ -1,7 +1,7 @@
 // Input should be between 0 and 100
 //A > 79, B - 60 to 79, C -  59 to 49, D - 40 to 49, E - less 40.
 
-let studentScore = 10;
+ let studentScore = 101;
 
  if (studentScore >=79 && studentScore <= 100){
     console.log("Your grade is A");
@@ -11,11 +11,14 @@ let studentScore = 10;
     console.log("Your grade is C")
  }else if (studentScore >=40 && studentScore <= 49){
     console.log("Your grade is D")
- }else if (studentScore >=0 && studentScore <= 40){
+ }else if (studentScore >=1 && studentScore <= 40){
     console.log("Your grade is E")
-}else{
+}else if (studentScore <= 0 && studentScore > 100){
     console.log("You are not gradeable")
+} else{
+   console.log("Enter a valid student's score")
 }
+
 
 
 
