@@ -24,5 +24,8 @@ Write a program that takes as input the speed of a car e.g 80. If the speed is l
 
 For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
 # Solution
-
+ 1. Created a function named (car) and the went ahead to give it a parameter
+ 2. In the function using let, i defined my variable and left it blank, so that i can input different values and get output based on the user gives.
+ 3. I defined individual conditions using the if else statement with the parameter.
+ 4. Fed my input with different values to ensure my program works as required in the question 
  
